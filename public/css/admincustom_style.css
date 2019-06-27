@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('Pallekele-Cricket-Stadium-001.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: normal;}
+
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+}
+.thumbnail img{
+    height: 300px;
+    width:400px;
+    border-radius: 10px;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
+    background-color: transparent;
+}
+.buton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.buton:hover, .buton:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+.headerline > h3{
+    color: #f8f8f8;
+}
+.latest-news{
+    border: 1px solid #b1b7ba;
+    border-radius: 12px;
+}
+.topbar{
+    color: #f8f8f8;
+}
+.thumb img{
+    height:200px;
+    margin-left:-30px;
+}
+.thumb{
+    border-top-left-radius: 11px;
+}
+
+
+.carousel {
+    margin-bottom: 60px;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 400px;
+    background-color:#555;
+}
+#myCarousel > .carousel-inner img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+/*.parag{
+    padding: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background: #dbdfe5;
+}*/
+#rowcontainer{
+    width: 100%;
+    display: block;
+    margin: -30px;
+}
+#footerconatiner{
+    width:100%;
+    height:auto;
+    display: inline-block;
+    background-color: #0c1a1e;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#footerconatiner img{
+    margin-top: 15px;
+}
+#footerconatiner p{
+    color:#fff;
+    font-size:11px;
+    font-family:sans-serif;
+    margin-bottom:15px;
+    margin-top:15px;
+    background-color: transparent;
+    padding:0px 0px 0px 0px;
+    text-align: justify;
+
+
+}
+#footerconatiner p i {
+    width:20px;
+    color:#999;
+}
+.heading7{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 22px;
+    color:#5e5d5d;
+    margin-left:10px;
+}
+.footer-ul{
+    list-style-type: none;
+   margin-left: 12px;
+
+}
+.footer-ul li a {
+    color: #f8f8f8;
+    transition: color 0.2s linear 0s,
+    background 0.2s linear 0s;
+}
+.footer-ul li a:hover{
+    transition: color 0.2s linear 0s,
+    background 0.2s linear 0s;
+    color:#ff670f;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+    margin-left: 13px;
+}
+.footer-social li{
+    float:left;
+    list-style-type: none;
+}
+.facebook{
+    background-color:#3b5998;
+}
+.twitter{
+    background-color:#1da1f2;
+}
+.google{
+    background-color:#f63e28;
+}
+.copyright { min-height:40px; background-color:#000000; margin-top: -10px; margin-bottom: 0px}
+.copyright p { text-align:left; color:#FFF;
+    margin-bottom:0; margin-top:12px; padding: 0px; font-size: 12px; background-color: transparent}
+.bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+.bottom_ul li { float:left; line-height:40px;}
+.bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+.bottom_ul li a { color:#FFF;  font-size:12px;}
+
+@media (max-width: 600px){
+    .heading7{
+        font-size: 9px;
+        font-family: sans-serif;
+        margin-top: 22px;
+        color:#5e5d5d;
+        margin-left:10px;
+    }
+    #footerconatiner p{
+        color:#fff;
+        font-size:9px;
+        font-family:sans-serif;
+        margin-bottom:15px;
+        margin-top:15px;
+        background-color: transparent;
+        padding:0px 0px 0px 0px;
+        text-align: justify;
+
+
+    }
+
+
+}
+
+/*---------------------------------------------------------News Page User----------------------------------*/
+
+#newsbox{
+    border:1px solid #5e5d5d;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+}
+#leftcont{
+
+    width:900px;
+    margin-left: -10px;
+    float: left;
+    border-right: 1px solid #ecebeb ;
+}
+#description {
+    padding: 5px 0px;
+
+}
+#leftside{
+    width:890px;
+    padding: 20px 0px;
+    border-bottom: 2px solid #ecebeb;
+
+}
